@@ -8,8 +8,8 @@ export default function Testimonial() {
                 <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/testimonial-bg.jpg)' }}></div>
                 <div className="auto-container">
                     <div className="sec-title mb_70">
-                    <h6>Testimonials</h6>
-                    <h2>Love from Our Clients</h2>
+                    <h6>Our Partners</h6>
+                    <h2>Love from Our Partners</h2>
                     </div>
                     <div className="content-box">
                         {/*Theme Carousel*/}

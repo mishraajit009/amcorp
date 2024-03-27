@@ -43,11 +43,11 @@ export default function Banner() {
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <h2>Open our <span>Current</span> Account Online</h2>
-                                <p>This statistic is based on our average personal current account online opening time from the last 12 months.</p>
+                                <h2>Wealth <span>Management</span> Recruitment</h2>
+                                <p>Bridging the gap between exceptional talent and the financial sector.</p>
                                 <div className="btn-box">
                                     <Link href="/" className="theme-btn btn-one">
-                                    Make an Appointment
+                                        Discover Here
                                     </Link>
                                 </div>
                             </div>
@@ -61,11 +61,11 @@ export default function Banner() {
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <h2>Open our <span>Current</span> Account Online</h2>
-                                <p>This statistic is based on our average personal current account online opening time from the last 12 months.</p>
+                                <h2>IT <span>Recruitment</span></h2>
+                                <p>Connecting tomorrow's tech leaders with today's innovative firms</p>
                                 <div className="btn-box">
                                     <Link href="/" className="theme-btn btn-one">
-                                    Make an Appointment
+                                        Discover Here
                                     </Link>
                                 </div>
                             </div>
@@ -79,11 +79,29 @@ export default function Banner() {
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <h2> Open our <span>Current</span> Account Online </h2>
-                                <p>This statistic is based on our average personal current account online opening time from the last 12 months.</p>
+                                <h2> Logistics  <span>&</span> Procurement</h2>
+                                <p>Driving efficiency in procurement and logistics with unmatched expertise.</p>
                                 <div className="btn-box">
                                     <Link href="/" className="theme-btn btn-one">
-                                    Make an Appointment
+                                        Discover Here
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slide-item p_relative">
+                        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-3.jpg)' }}></div>
+                        <div className="pattern-layer">
+                            <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-1.png)' }}></div>
+                            <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-2.png)' }}></div>
+                        </div>
+                        <div className="auto-container">
+                            <div className="content-box">
+                                <h2> Group <span> Offering </span> </h2>
+                                <p>Delivering integrated offerings for diverse client needs with precision and care..</p>
+                                <div className="btn-box">
+                                    <Link href="/" className="theme-btn btn-one">
+                                        Discover Here
                                     </Link>
                                 </div>
                             </div>

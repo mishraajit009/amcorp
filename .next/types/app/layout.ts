@@ -1,4 +1,4 @@
-// File: C:\Users\Ajit\Downloads\themeforest-MUlqjmnl-metrobank-banking-and-finance-react-next-js-template\metrobank pack\metrobank\app\layout.js
+// File: C:\My Drive\amcorp\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

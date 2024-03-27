@@ -3,7 +3,7 @@ import Link from "next/link"
 import { useState } from "react"
 
 
-export default function service() {
+export default function service({}) {
     const [activeIndex, setActiveIndex] = useState(1)
     const handleOnClick = (index) => {
         setActiveIndex(index)

@@ -12,19 +12,9 @@ export default function About() {
                         <div className="image-box pr_90 mr_40">
                             <div className="image-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>
                             <figure className="image"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
-                            <div className="rating-box">
-                            <ul className="rating mb_5 clearfix">
-                                <li><i className="icon-9"></i></li>
-                                <li><i className="icon-9"></i></li>
-                                <li><i className="icon-9"></i></li>
-                                <li><i className="icon-9"></i></li>
-                                <li><i className="icon-9"></i></li>
-                            </ul>
-                            <h6>5 Star Rating Bank</h6>
-                            </div>
                             <div className="experience-box">
                             <div className="inner">
-                                <h2>40</h2>
+                                <h2>10</h2>
                                 <h6>Years of Experience</h6>
                             </div>
                             </div>
@@ -35,11 +25,11 @@ export default function About() {
                         <div className="content_block_one">
                         <div className="content-box ml_40">
                             <div className="sec-title mb_20">
-                            <h6>About US</h6>
+                            <h6>About US</h6> 
                             <h2>Financial Guidance for Every Stage of Life.</h2>
                             </div>
                             <div className="text-box mb_40">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against fraud. See it the Security Center for and Mobile and Online Banking.</p>
+                            <p>At A&M Corp, we stand at the intersection of tradition and innovation, offering specialized services across Wealth Management Recruitment, IT Recruitment, Logistics & Procurement, and Group Offerings. Our foundation is built on the expertise and visionary leadership of our co-founders, who bring over a decade of experience to the forefront of each vertical.</p>
                             </div>
                             <div className="inner-box mb_45">
                             <div className="single-item">

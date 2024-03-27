@@ -13,17 +13,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <ul className="links-list clearfix">
                             <li><Link href="/career">Career</Link></li>
                             <li><Link href="/faq">Faq</Link></li>
-                            <li><Link href="/">Rewards</Link></li>
-                            <li><Link href="/">Media</Link></li>
+                            <li><Link href="/">Privacy Documents</Link></li>
                         </ul>
                         <ul className="info-list clearfix">
                             <li>
                             <i className="icon-1"></i>
-                            <Link href="mailto:info@example.com">info@example.com</Link>
-                            </li>
-                            <li>
-                            <i className="icon-2"></i>
-                            Find Nearest Branch
+                            <Link href="mailto:info@example.com">info@amcorp.com</Link>
                             </li>
                         </ul>
                         </div>
@@ -50,8 +45,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                         </nav>
                         <div className="menu-right-content ml_70">
-                            <Link href="/" className="theme-btn btn-two mr_20">Login</Link>
-                            <Link href="/contact" className="theme-btn btn-one">Open Account</Link>
+                            <Link href="/" className="theme-btn btn-one mr_20">Client</Link>
+                            <Link href="/contact" className="theme-btn btn-one mr_20">Candidates</Link>
+                            <Link href="/contact" className="theme-btn btn-one">Partners</Link> 
                         </div>
                         </div>
                     </div>
@@ -73,8 +69,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 </div>
                             </nav>
                             <div className="menu-right-content ml_70">
-                            <Link href="/" className="theme-btn btn-two mr_20">Login</Link>
-                            <Link href="/contact" className="theme-btn btn-one">Open Account</Link>
+                            <Link href="/" className="theme-btn btn-one mr_20">Client</Link>
+                            <Link href="/contact" className="theme-btn btn-one mr_20">Candidates</Link>
+                            <Link href="/contact" className="theme-btn btn-one">Partners</Link> 
                             </div>
                         </div>
                         </div>

@@ -154,7 +154,19 @@
   background-position: center;
   opacity: 0.03;
 }
-
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Full viewport height */
+}
+/* Set the height of the divs */
+.custom-div {
+  height: 80px;
+  width: 120px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
 /** service-style-two **/
 
 .service-style-two{

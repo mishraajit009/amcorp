@@ -13,17 +13,12 @@ export default function Menu() {
             </ul> */}
 
             <ul className="navigation clearfix">
-                <li className="dropdown"><Link href="/">Home</Link>
-                    <ul>
-                        <li><Link href="/">Home Page One</Link></li>
-                        <li><Link href="/index-2">Home Page Two</Link></li>
-                        <li><Link href="/index-3">Home Page Three</Link></li>
-                        <li><Link href="/index-onepage">OnePage Home</Link></li>
-                    </ul>
+                <li><Link href="/">Home</Link>
+                    
                 </li> 
                 <li><Link href="/about/">About</Link></li>
-                <li className="dropdown"><Link href="/">Services</Link>
-                    <ul>
+                <li><Link href="/wealth-managment">Services</Link>
+                    {/* {<ul>
                         <li><Link href="/service">Our Services</Link></li>
                         <li><Link href="/service-2">Our Services 2</Link></li>
                         <li><Link href="/service-details">Digital Banking</Link></li>
@@ -34,9 +29,10 @@ export default function Menu() {
                         <li><Link href="/service-details-6">Borrowing Accounts</Link></li>
                         <li><Link href="/service-details-7">Private Banking</Link></li>
                         <li><Link href="/service-details-8">Fixed Term Account</Link></li>
-                    </ul>
+                    </ul>} */}
                 </li> 
-                <li className="dropdown"><Link href="/">Pages</Link>
+                <li><Link href="/">Partners</Link></li>
+                {/* <li className="dropdown"><Link href="/">Pages</Link>
                     <ul>
                         <li className="dropdown"><Link href="/">Directors</Link>
                             <ul>
@@ -63,7 +59,7 @@ export default function Menu() {
                         <li><Link href="/faq">General FAQ’s</Link></li>
                         <li><Link href="/error">404 Error</Link></li>
                     </ul>
-                </li> 
+                 </li> */}
                 <li><Link href="/contact">Contact</Link></li> 
             </ul>
         </>

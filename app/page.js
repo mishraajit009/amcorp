@@ -14,18 +14,12 @@ export default function Home() {
 
     return (
         <>
-            <img src="assets/images/icons/" alt="Text"/>
             <Layout headerStyle={1} footerStyle={1}>
                 <Banner />
                 <Features />
                 <About />
                 <Services />
-                <Calculator />
-                <Video />
-                <Funfacts />
-                <App />
                 <Testimonial />
-                <News />
                 <Subscribe />
             </Layout>
         </>

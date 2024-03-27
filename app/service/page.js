@@ -20,7 +20,7 @@ export default function Home() {
                             </div>
                             <div className="row clearfix">
                                 <div className="col-lg-3 col-md-6 col-sm-12 service-block">
-                                            <div className="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <div className="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                             <div className="inner-box">
                                                 <div className="shape"></div>
                                                 <div className="icon-box"><i className="icon-12"></i></div>
@@ -30,8 +30,8 @@ export default function Home() {
                                                 <li>Credit cards</li>
                                                 <li>Personal loans</li>
                                                 </ul>
-                                            </div>
-                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                                     <div className="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
