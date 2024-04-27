@@ -17,7 +17,7 @@ export default function Menu() {
                     
                 </li> 
                 <li><Link href="/about/">About</Link></li>
-                <li><Link href="/wealth-managment">Services</Link>
+                <li><Link href="/services">Services</Link>
                     {/* {<ul>
                         <li><Link href="/service">Our Services</Link></li>
                         <li><Link href="/service-2">Our Services 2</Link></li>

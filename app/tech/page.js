@@ -24,8 +24,7 @@ export default function Home() {
                                                 <h4><Link href={{
                                                     pathname:"/tech-services",
                                                     query: {techProduct :"erp"}
-                                                }} 
-                                                techProducts = "erp"
+                                                }}
                                                 >ERP’s</Link></h4>
                                                 <ul className="list-item clearfix">
                                                 <li>SAP </li>

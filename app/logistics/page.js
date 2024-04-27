@@ -21,7 +21,10 @@ export default function Home() {
                                             <div className="inner-box">
                                                 <div className="shape"></div>
                                                 <div className="icon-box"><i className="icon-12"></i></div>
-                                                <h4><Link href="/wm-service">Raw Material Procurement</Link></h4>
+                                                <h4><Link href={{
+                                                    pathname:"/logistic-service",
+                                                    query: {logistic :"rmp"}
+                                                }}>Raw Material Procurement</Link></h4>
                                                 <ul className="list-item clearfix">
                                                 <li>Decade in wealth, private banking recruitment.</li>
                                                 <li>Extensive network, robust database.</li>
@@ -35,7 +38,10 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-13"></i></div>
-                                        <h4><Link href="/private-banking">Supply Chain Optimization</Link></h4>
+                                        <h4><Link href={{
+                                                    pathname:"/logistic-service",
+                                                    query: {logistic :"sco"}
+                                                }}>Supply Chain Optimization</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Database of skilled banking, investment professionals</li>
                                             <li>Personalised financial recruitment services</li>
@@ -49,7 +55,10 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-14"></i></div>
-                                        <h4><Link href="/eam">Supplier Hub</Link></h4>
+                                        <h4><Link href={{
+                                                    pathname:"/logistic-service",
+                                                    query: {logistic :"sh"}
+                                                }}>Supplier Hub</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Specialists dedicated to client interests</li>
                                             <li>Optimal investment opportunity expertise</li>
@@ -63,7 +72,10 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-16"></i></div>
-                                        <h4><Link href="/financial-planning">Construction Hub </Link></h4>
+                                        <h4><Link href={{
+                                                    pathname:"/logistic-service",
+                                                    query: {logistic :"ch"}
+                                                }}>Construction Hub </Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Comprehensive planning expert network</li>
                                             <li>Proficient in personal finance, retirement, risk.</li>

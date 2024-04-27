@@ -1,38 +1,43 @@
 'use client'
 import Link from "next/link"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
-export default function service({}) {
+export default function service({data}) {
     const [activeIndex, setActiveIndex] = useState(1)
     const handleOnClick = (index) => {
         setActiveIndex(index)
     }
+    useEffect(()=>{
+        console.log("My Data is",data);
+    })
     return (
         <>
-
-
-            <section className="service-style-two pb_120">
+          <section className="service-style-two pb_120">
                 <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg-2.jpg)' }}></div>
                 <div className="auto-container">
                     <div className="sec-title centred mb_70">
                     <h6>Our Services</h6>
-                    <h2>Online Banking at Fingertips</h2>
+                    <h2>{data ? data.title :""}</h2>
                     </div>
                     <div className="tabs-box">
                         <div className="tab-btn-box p_relative mb_100">
                             <ul className="tab-btns tab-buttons" role="tablist">
                                 <li className="nav-link" onClick={() => handleOnClick(1)}>
-                                    <a className={activeIndex == 1 ? "nav-link active" : "nav-link"}><span>Digital Banking</span></a>
+                                    <a className={activeIndex == 1 ? "nav-link active" : "nav-link"}><span>
+                                    {data && data.services ? data.services[0].technology : ''}</span></a>
                                 </li>
                                 <li className="nav-item" onClick={() => handleOnClick(2)}>
-                                    <a className={activeIndex == 2 ? "nav-link active" : "nav-link"}><span>Insurance Policies</span></a>
+                                    <a className={activeIndex == 2 ? "nav-link active" : "nav-link"}><span>
+                                        {data && data.services ? data.services[1].technology : ''}</span></a>
                                 </li>
                                 <li className="nav-item" onClick={() => handleOnClick(3)}>
-                                    <a className={activeIndex == 3 ? "nav-link active" : "nav-link"}><span>All kind of Loans</span></a>
+                                    <a className={activeIndex == 3 ? "nav-link active" : "nav-link"}><span>
+                                        {data && data.services ? data.services[2].technology : ''}</span></a>
                                 </li>
                                 <li className="nav-item" onClick={() => handleOnClick(4)}>
-                                    <a className={activeIndex == 4 ? "nav-link active" : "nav-link"}><span>Bank Accounts</span></a>
+                                    <a className={activeIndex == 4 ? "nav-link active" : "nav-link"}><span>
+                                    {data && data.services ? data.services[3].technology : ''}</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -42,9 +47,9 @@ export default function service({}) {
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                     <div className="content_block_four">
                                     <div className="content-box mr_110">
-                                        <h2>Digital Banking</h2>
+                                        <h2> {data && data.services ? data.services[0].technology : ''} </h2>
                                         <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against fraud. See it the Security Center for and Mobile and Online Banking.
+                                        {data && data.services ? data.services[0].description : ''}
                                         </p>
                                         <ul className="list-item mb_40 clearfix">
                                         <li>Background Check</li>
@@ -74,9 +79,9 @@ export default function service({}) {
                                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                         <div className="content_block_four">
                                         <div className="content-box mr_110">
-                                            <h2>Insurance Policies</h2>
+                                            <h2> {data && data.services ? data.services[1].technology : ''} </h2>
                                             <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against fraud. See it the Security Center for and Mobile and Online Banking.
+                                            {data && data.services ? data.services[1].description : ''}
                                             </p>
                                             <ul className="list-item mb_40 clearfix">
                                             <li>Background Check</li>
@@ -106,9 +111,9 @@ export default function service({}) {
                                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                         <div className="content_block_four">
                                             <div className="content-box mr_110">
-                                                <h2>All kind of Loans</h2>
+                                                <h2>{data && data.services ? data.services[2].technology : ''}</h2>
                                                 <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against fraud. See it the Security Center for and Mobile and Online Banking.
+                                                {data && data.services ? data.services[2].description : ''}
                                                 </p>
                                                 <ul className="list-item mb_40 clearfix">
                                                     <li>Background Check</li>
@@ -138,9 +143,9 @@ export default function service({}) {
                                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                         <div className="content_block_four">
                                             <div className="content-box mr_110">
-                                                <h2>Bank Accounts</h2>
+                                                <h2>{data && data.services ? data.services[3].technology : ''}</h2>
                                                 <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against fraud. See it the Security Center for and Mobile and Online Banking.
+                                                {data && data.services ? data.services[3].description : ''}
                                                 </p>
                                                 <ul className="list-item mb_40 clearfix">
                                                     <li>Background Check</li>
@@ -167,7 +172,6 @@ export default function service({}) {
                     </div>
                 </div>
             </section>
-  
         </>
     )
 }

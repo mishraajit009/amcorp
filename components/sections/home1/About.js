@@ -31,18 +31,7 @@ export default function About() {
                             <div className="text-box mb_40">
                             <p>At A&M Corp, we stand at the intersection of tradition and innovation, offering specialized services across Wealth Management Recruitment, IT Recruitment, Logistics & Procurement, and Group Offerings. Our foundation is built on the expertise and visionary leadership of our co-founders, who bring over a decade of experience to the forefront of each vertical.</p>
                             </div>
-                            <div className="inner-box mb_45">
-                            <div className="single-item">
-                                <div className="icon-box"><i className="icon-10"></i></div>
-                                <h3>Solution Focused</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis tincidunt feugiat</p>
-                            </div>
-                            <div className="single-item">
-                                <div className="icon-box"><i className="icon-11"></i></div>
-                                <h3>99.99% Success</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis tincidunt feugiat</p>
-                            </div>
-                            </div>
+                                
                             <div className="btn-box">
                             <Link href="/about" className="theme-btn btn-one">Discover More</Link>
                             </div>

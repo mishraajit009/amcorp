@@ -136,6 +136,12 @@
   right: inherit;
   left: -80px;
 }
+.inner-box .author-box .service-tag{
+  height: 10px;
+  width: 30px;
+  border: 2px solid red;
+  cursor: pointer;
+}
 
 
 /** responsive-css **/
