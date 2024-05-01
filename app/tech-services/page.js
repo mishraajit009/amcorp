@@ -2,14 +2,13 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useEffect, useState } from "react";
-import {useSearchParams} from "next/navigation";
+import {useSearchParams, useRouter} from "next/navigation";
 import Services from "@/components/sections/home2/Services";
-import { useRouter } from 'next/router';
 export default function Home() {
      // Use get method after destructuring
      const [key,setKey]=useState({})
      const searchParams = useSearchParams();
-     
+     const router = useRouter();
     useEffect(() => {
         const data = {
             erp:{
@@ -182,12 +181,15 @@ export default function Home() {
                 ]  
             }
          }
+         
         console.log(searchParams.get("techProduct"));
         console.log("My Data",data[searchParams.get("techProduct")]);
         if (!searchParams.get("techProduct") || !data[searchParams.get("techProduct")]) {
+          console.log("Router",router);
           router.push('/not-found'); // Redirect to "/not-found" if "techProduct" is not found or invalid
+        }else{
+          setKey(data[searchParams.get("techProduct")]);
         }
-        setKey(data[searchParams.get("techProduct")]);
 
     }, []);
     useEffect(()=>{

@@ -1,0 +1,36 @@
+.file-upload-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+.file-upload-wrapper input[type=file] {
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.file-upload-button {
+    background-color: white;
+    color: rgba(103, 103, 103, 1);
+    padding: 10px 20px;
+    border: red;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.file-upload-button:hover {
+    cursor: pointer;
+}
+
+.file-upload-label {
+    font-size: 16px;
+    margin-left: 10px;
+
+}

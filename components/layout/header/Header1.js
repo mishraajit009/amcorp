@@ -45,8 +45,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                         </nav>
                         <div className="menu-right-content ml_70">
-                            <Link href="/" className="theme-btn btn-one mr_20">Client</Link>
-                            <Link href="/contact" className="theme-btn btn-one mr_20">Candidates</Link>
+                            <Link href="/client" className="theme-btn btn-one mr_20">Client</Link>
+                            <Link href="/candidate" className="theme-btn btn-one mr_20">Candidates</Link>
                             <Link href="/contact" className="theme-btn btn-one">Partners</Link> 
                         </div>
                         </div>
